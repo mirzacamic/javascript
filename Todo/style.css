@@ -1,0 +1,99 @@
+body{
+    background-color: #7FB6E5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    color: white;
+    font-size: 50pt;
+}
+h2{
+    color: white;
+}
+
+input {
+    gap: 10rem;
+    border-radius:2rem;
+    width: 26rem;
+    height: 2.5rem;
+    border: none;
+    padding: 0 10px;
+    margin-right: 1rem;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 35rem;
+    margin-top: 15rem;
+    margin-left: 40%;
+}
+
+#submit {
+    height: 2.5rem;
+    width: 3rem;
+    border: none;
+    background-color:#1995FF;
+    color: white;
+}
+
+#reset {
+    height: 2.5rem;
+    width: 3rem;
+    background-color: #C0392B;
+    border: none;
+    color: white;
+}
+
+.tasks {
+    width: 30rem;
+    margin-left: 40%;
+    margin-top: 3rem;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete {
+    color: white;
+    height: 100%;
+    background-color: #27AE60;
+    border: none;
+    width: 4rem;
+}
+
+.remov {
+    color: white;
+    height: 100%;
+    background-color: #E74C3C;
+    border: none;
+    width: 4rem;
+}
+
+p, .completed{
+    margin-left: 1rem;
+    font-size: large;
+    font-weight: 600;
+}
+
+.completed > li {
+    text-decoration:line-through;
+    color: white;
+    border: none;
+    padding: 0.6rem;
+}
